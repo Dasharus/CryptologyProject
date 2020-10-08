@@ -1,0 +1,12 @@
+D:\projects\thirdyear\ISS project\ISSproject\bin\Debug\ISSproject.exe.config
+D:\projects\thirdyear\ISS project\ISSproject\bin\Debug\ISSproject.exe
+D:\projects\thirdyear\ISS project\ISSproject\bin\Debug\ISSproject.pdb
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.csprojAssemblyReference.cache
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.Form1.resources
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.Properties.Resources.resources
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.csproj.GenerateResource.cache
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.csproj.CoreCompileInputs.cache
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.exe
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.pdb
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.freqRadioBut.resources
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.task2.resources

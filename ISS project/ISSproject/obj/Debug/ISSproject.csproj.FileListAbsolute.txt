@@ -10,3 +10,8 @@ D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.exe
 D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.pdb
 D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.freqRadioBut.resources
 D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.task2.resources
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.task3.resources
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.task4.resources
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.task5.resources
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.task6.resources
+D:\projects\thirdyear\ISS project\ISSproject\obj\Debug\ISSproject.taskRSA.resources

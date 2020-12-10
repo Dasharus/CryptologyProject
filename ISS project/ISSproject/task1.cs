@@ -358,5 +358,10 @@ namespace ISSproject
             azToolStripMenuItem.Checked = false;
             zaToolStripMenuItem.Checked = true;
         }
+
+        private void freqRadioBut_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

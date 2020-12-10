@@ -55,7 +55,11 @@
             this.eNGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sortingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alphabetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.azToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.frequencyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lowerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.higherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,10 +67,6 @@
             this.engRadioBut = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.sortbyLabel = new System.Windows.Forms.Label();
-            this.lowerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.higherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.azToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.Tabble)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -307,9 +307,23 @@
             this.azToolStripMenuItem,
             this.zaToolStripMenuItem});
             this.alphabetToolStripMenuItem.Name = "alphabetToolStripMenuItem";
-            this.alphabetToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.alphabetToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.alphabetToolStripMenuItem.Text = "Alphabet";
             this.alphabetToolStripMenuItem.Click += new System.EventHandler(this.AlphabetToolStripMenuItem_Click);
+            // 
+            // azToolStripMenuItem
+            // 
+            this.azToolStripMenuItem.Name = "azToolStripMenuItem";
+            this.azToolStripMenuItem.Size = new System.Drawing.Size(113, 26);
+            this.azToolStripMenuItem.Text = "a-z";
+            this.azToolStripMenuItem.Click += new System.EventHandler(this.AzToolStripMenuItem_Click);
+            // 
+            // zaToolStripMenuItem
+            // 
+            this.zaToolStripMenuItem.Name = "zaToolStripMenuItem";
+            this.zaToolStripMenuItem.Size = new System.Drawing.Size(113, 26);
+            this.zaToolStripMenuItem.Text = "z-a";
+            this.zaToolStripMenuItem.Click += new System.EventHandler(this.ZaToolStripMenuItem_Click);
             // 
             // frequencyToolStripMenuItem
             // 
@@ -317,9 +331,23 @@
             this.lowerToolStripMenuItem,
             this.higherToolStripMenuItem});
             this.frequencyToolStripMenuItem.Name = "frequencyToolStripMenuItem";
-            this.frequencyToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.frequencyToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.frequencyToolStripMenuItem.Text = "Frequency";
             this.frequencyToolStripMenuItem.Click += new System.EventHandler(this.FrequencyToolStripMenuItem_Click);
+            // 
+            // lowerToolStripMenuItem
+            // 
+            this.lowerToolStripMenuItem.Name = "lowerToolStripMenuItem";
+            this.lowerToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.lowerToolStripMenuItem.Text = "Lower";
+            this.lowerToolStripMenuItem.Click += new System.EventHandler(this.LowerToolStripMenuItem_Click);
+            // 
+            // higherToolStripMenuItem
+            // 
+            this.higherToolStripMenuItem.Name = "higherToolStripMenuItem";
+            this.higherToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.higherToolStripMenuItem.Text = "Higher";
+            this.higherToolStripMenuItem.Click += new System.EventHandler(this.HigherToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -395,34 +423,6 @@
             this.sortbyLabel.TabIndex = 16;
             this.sortbyLabel.Text = "Sort by: Alphabet";
             // 
-            // lowerToolStripMenuItem
-            // 
-            this.lowerToolStripMenuItem.Name = "lowerToolStripMenuItem";
-            this.lowerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.lowerToolStripMenuItem.Text = "Lower";
-            this.lowerToolStripMenuItem.Click += new System.EventHandler(this.LowerToolStripMenuItem_Click);
-            // 
-            // higherToolStripMenuItem
-            // 
-            this.higherToolStripMenuItem.Name = "higherToolStripMenuItem";
-            this.higherToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.higherToolStripMenuItem.Text = "Higher";
-            this.higherToolStripMenuItem.Click += new System.EventHandler(this.HigherToolStripMenuItem_Click);
-            // 
-            // azToolStripMenuItem
-            // 
-            this.azToolStripMenuItem.Name = "azToolStripMenuItem";
-            this.azToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.azToolStripMenuItem.Text = "a-z";
-            this.azToolStripMenuItem.Click += new System.EventHandler(this.AzToolStripMenuItem_Click);
-            // 
-            // zaToolStripMenuItem
-            // 
-            this.zaToolStripMenuItem.Name = "zaToolStripMenuItem";
-            this.zaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.zaToolStripMenuItem.Text = "z-a";
-            this.zaToolStripMenuItem.Click += new System.EventHandler(this.ZaToolStripMenuItem_Click);
-            // 
             // freqRadioBut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -446,6 +446,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FREQUENCY TABLE";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Task1_FormClosing);
+            this.Load += new System.EventHandler(this.freqRadioBut_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Tabble)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
